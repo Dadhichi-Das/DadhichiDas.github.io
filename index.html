@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device width, inital scale=1.0">
+    <title>Dadhichi Das</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/894c58e594.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href='#header'>Home</a></li>
+                <li><a href='#about'>About</a></li>
+                <li><a href='#services'>Services</a></li>
+                <li><a href='#portfolio'>Portfolio</a></li>
+                <li><a href='#contact'>Contact</a></li>
+                <i class="fa-solid fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Aspiring Physicist</p>
+            <h1>Hi, I am <span>Dadhichi Das</span> from India</h1>
+        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>  
+                    Hello there! I'm Dadhichi, an aspiring physicist. Nature never fails to mesmerize me with 
+                    its beauty and mysterious behaviour. I always had interest to understand the nature in depth
+                    and to unravel its secrets. When I was in eight passing by an electrical transformer and had observed the fire 
+                    was greenish in colour. Fire is generally reddish-yellow why was it green? That very 
+                    incident sparked curiosity towards physics. Physics has potential to unlock the gate of 
+                    mysteries of universe, ranging from large astronomical objects to small quarks. I am always 
+                    hungry to learn more and want to undedrstand the physical beauty of nature. Apart from physics 
+                    I have interests in many things like painting, reading books, robotics, coding and playing piano. I love doing my 
+                    cocurricular activities as same as studying physics. These activites dfuels my mind with positivity,
+                    enery, love and peace of mind. I love solving problems and acccept challenges with smile. I belive in
+                    team work and always am eager to work with team and accomplish my dream work. Overall, I constantly like 
+                    to evolve and grow and learn more about everrything.
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Coding</span><br>Python<br>HTML<br>C++ in Arduino</li>
+                            <li><span>Music</span><br>Playing Piano<br>Music Composing</li>
+                            <li><span>Robotics</span><br>Arduino<br>Soldering and Mechanical works<br>3D Designing</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>The Air Force School</span><br>Secondary Education - 94.4%</li>
+                            <li><span>The Air Force School</span><br>Senior Secondary Education - 94.2%</li>
+                            <li><span>National Institute of Sceince Education and Research</span><br>Integrated M.Sc(Persuing)</li>
+                        </ul>
+                    </div>
+                </p>
+            </div>
+        </div>
+    </div>   
+</div>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Interests</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Coding</h2>
+                <p>
+                    I have a keen interest in coding. My college's computer sceince lab course
+                    sparked interest for coding in me. I am currently learning Python, HTML, CSS,
+                    and Arduino.
+                </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-music"></i>
+                <h2>Music</h2>
+                <p>
+                    From childhood I am interested in music. I started leaning piano when I was twelve
+                    and still am continuing. My specific interest is in Western Classical but I am open
+                    to every genre. I love composing music and creating new pieces. I have completed till 6th Grade
+                    from Trinity College London and am looking for playing better each day.
+                </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-palette"></i></i>
+                <h2>Painting</h2>
+                <p>
+                    From the age ten I have been learning to paint. I have completed third year from
+                    Prayag Sangeet Samiti. I practice painting everyday and love to capture nature's 
+                    beauty in canvas.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpeg">
+                <div class="layer">
+                    <h3>LINE FOLLOWER ROBOT</h3>
+                    <p>We created an autonomous robot which follows a black line over a white sheet</p>
+                    <a href="https://github.com/DibboBhai/Line_Follower_Robot"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.jpeg">
+                <div class="layer">
+                    <h3>ROBO RACER ROBOT</h3>
+                    <p>We created a robot which is controlled by user and is used for competing for Robo Race competitions</p>
+                    <a href="https://github.com/DibboBhai/Robo_Racer_Robot"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.jpg">
+                <div class="layer">
+                    <h3>ROBO SOCCER BOT</h3>
+                    <p>This is a bot which is controlled by user and has tremendous amount of control and used in competitions for Robo Soccer Competitions</p>
+                    <a href="https://github.com/DibboBhai/Robo_Soccer"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>dadhichi.das@niser.ac.in<br><span>iiiiiiiiii</span> dadhichi135@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 9811403804</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/dadhichi_das/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/DibboBhai"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/Dadhichi Das CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Dadhichi </p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxyeen4IAGfMZ_FiXy3uJKTWXouRqp1bZVO6R2p4DodeJog6btlsun0C4JBzZSSsK42/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {form.reset()})
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
