@@ -64,6 +64,13 @@ nav ul li a {
     color: #ff004f;
 }
 
+.header-text h1 span.green{
+    color: green;
+}
+.header-text h1 span.orange{
+    color: orange;
+}
+
 #about {
     padding: 20px 0;
     color: #ababab;
