@@ -16,8 +16,8 @@
             <ul id="sidemenu">
                 <li><a href='#header'>Home</a></li>
                 <li><a href='#about'>About</a></li>
-                <li><a href='#services'>Services</a></li>
-                <li><a href='#portfolio'>Portfolio</a></li>
+                <li><a href='#services'>Interests</a></li>
+                <li><a href='#portfolio'>Projects</a></li>
                 <li><a href='#contact'>Contact</a></li>
                 <i class="fa-solid fa-times" onclick="closemenu()"></i>
             </ul>
@@ -52,10 +52,10 @@
                     to evolve and grow and learn more about everrything.
 
                     <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links " onclick="opentab('skills')">Skills</p>
                     </div>
-                    <div class="tab-contents active-tab" id="skills">
+                    <div class="tab-contents " id="skills">
                         <ul>
                             <li><span>Coding</span><br>Python<br>HTML<br>C++ in Arduino</li>
                             <li><span>Music</span><br>Playing Piano<br>Music Composing</li>
@@ -63,11 +63,11 @@
                         </ul>
                     </div>
 
-                    <div class="tab-contents" id="education">
+                    <div class="tab-contents active-tab" id="education">
                         <ul>
                             <li><span>The Air Force School</span><br>Secondary Education - 94.4%</li>
                             <li><span>The Air Force School</span><br>Senior Secondary Education - 94.2%</li>
-                            <li><span>National Institute of Sceince Education and Research</span><br>Integrated M.Sc(Persuing)</li>
+                            <li><span>National Institute of Sceince Education and Research</span><br>Integrated M.Sc(Persuing) - 7.70</li>
                         </ul>
                     </div>
                 </p>
@@ -80,12 +80,13 @@
         <h1 class="sub-title">My Interests</h1>
         <div class="services-list">
             <div>
-                <i class="fa-solid fa-code"></i>
-                <h2>Coding</h2>
+                <i class="fa-solid fa-atom"></i>
+                <h2>Quantum Information</h2>
                 <p>
-                    I have a keen interest in coding. My college's computer sceince lab course
-                    sparked interest for coding in me. I am currently learning Python, HTML, CSS,
-                    and Arduino.
+                    I have a keen interest in Quantum Information Theory. The
+                    idea of entanglement, superposition and other things intrigues me.
+                    I am very much interested in looking into different theoritical aspects
+                    and simulations of quantum information and their applications.
                 </p>
             </div>
             <div>
@@ -110,59 +111,75 @@
         </div>
     </div>
 </div>
+
 <div id="portfolio">
-    <div class="container">
-        <h1 class="sub-title">My Projects</h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="images/work-1.jpeg">
-                <div class="layer">
-                    <h3>LINE FOLLOWER ROBOT</h3>
-                    <p>We created an autonomous robot which follows a black line over a white sheet</p>
-                    <a href="https://github.com/DibboBhai/Line_Follower_Robot"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="images/work-2.jpeg">
-                <div class="layer">
-                    <h3>ROBO RACER ROBOT</h3>
-                    <p>We created a robot which is controlled by user and is used for competing for Robo Race competitions</p>
-                    <a href="https://github.com/DibboBhai/Robo_Racer_Robot"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="images/work-3.jpg">
-                <div class="layer">
-                    <h3>ROBO SOCCER BOT</h3>
-                    <p>This is a bot which is controlled by user and has tremendous amount of control and used in competitions for Robo Soccer Competitions</p>
-                    <a href="https://github.com/DibboBhai/Robo_Soccer"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
-        </div>
+  <div class="container">
+    <h1 class="sub-title">My Projects</h1>
+    <div class="project-block">
+      <h3>APPLICATION OF WARNER STATES IN QUANTUM SWITCHES</h3>
+      <p>I learnt about Entanglement Swapping in Quantum Switches. I also had to learn
+         about the Warner States and I am expected to apply Warner States in Quantum Switches 
+         and analyse the entanglement swapping procedure. I will simulate the Quantum Network on 
+         NetSquid Simulator.
+      </p>
+      <a href="https://drive.google.com/file/d/1xgtX2cp-WAVUrOnrvliscfr0jayJif6n/view" target="_blank">View Project Report</a>
     </div>
+
+    <div class="project-block">
+      <h3>ELEMENTAL ANALYSIS OF LUNAR SURFACE</h3>
+      <p>My task was to analyse the data collected from Gamma Ray Spectrometer in Lunar Prospector mission 
+        launched by NASA to analyse the radioactive elements on moon. I had to learn about 
+        Gamma Ray Spectroscopy and how the radioactive elements are detected by number of 
+        counts of photons. I had to plot the elemental abundance and derived maps of radioactive 
+        elements on lunar surface.
+      </p>
+      <a href="https://drive.google.com/file/d/1f4nLx-Cdq2Z22g46Ds6QST2Y_jR36AKE/view" target="_blank">View Project Report</a>
+    </div>
+
+    <div class="project-block">
+      <h3>LINE FOLLOWER ROBOT</h3>
+      <p>
+        We created an autonomous robot which follows a black line over a white sheet and used Proportional-Integral-Derivative (PID) algorithm.
+        We used IR sensor for detecting the track and used the algorithm for corrections in the track.
+      </p>
+      <a href="https://github.com/Dadhichi-Das/Line_Follower_Robot" target="_blank">View Github Repository</a>
+    </div>
+
+    <div class="project-block">
+      <h3>ROBO RACER ROBOT</h3>
+      <p>
+        We created a robot which is controlled by the user by using a radio transmitter and receiver and is used in Robo Race competitions.
+        Here I learnt about how radio communications happen and how they are applied in other Remote Controlled devices.
+      </p>
+      <a href="https://github.com/Dadhichi-Das/Robo_Racer_Robot" target="_blank">View Github Repository</a>
+    </div>
+
+    <div class="project-block">
+      <h3>ROBO SOCCER BOT</h3>
+      <p>
+        This is a bot controlled by the user by transmitter and receiver and is designed for Robo Soccer competitions with high maneuverability.
+        Here I learnt about polynomial scaling of the input to ouptput.
+      </p>
+      <a href="https://github.com/Dadhichi-Das/Robo_Soccer" target="_blank">View Github Repository</a>
+    </div>
+  </div>
 </div>
+
+
 <div id="contact">
     <div class="container">
         <div class="row">
             <div class="contact-left">
                 <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fa-solid fa-envelope"></i>dadhichi.das@niser.ac.in<br><span>iiiiiiiiii</span> dadhichi135@gmail.com</p>
+                <p><i class="fa-solid fa-envelope"></i>dadhichi.das@niser.ac.in<br><span>iiiiiiiiii</span> dadhichiphy@gmail.com</p>
                 <p><i class="fa-solid fa-phone"></i>+91 9811403804</p>
                 <div class="social-icons">
                     <a href="https://www.instagram.com/dadhichi_das/"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://github.com/DibboBhai"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://github.com/Dadhichi-Das"><i class="fa-brands fa-github"></i></a>
                 </div>
                 <a href="images/Dadhichi Das CV.pdf" download class="btn btn2">Download CV</a>
             </div>
-            <div class="contact-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="Email" placeholder="Your Email" required>
-                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
-                </form>
-                <span id="msg"></span>
-            </div>
+            
         </div>
     </div>
     <div class="copyright">
