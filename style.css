@@ -66,7 +66,7 @@ nav ul li a {
 }
 
 .header-text h1 span.green{
-    color:  green;
+    color: green;
 }
 .header-text h1 span.orange{
     color: orange;
@@ -197,25 +197,46 @@ nav ul li a {
     padding: 50px 0;
 }
 
-.work-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
+
+
+.project-block {
+    background: #262626;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    transition: background 0.3s, transform 0.3s;
 }
 
-.work {
-    border-radius: 10px;
-    position: relative;
-    overflow: hidden;
+.project-block h3 {
+    margin-bottom: 10px;
+    color: white;
 }
 
-.work img {
-    width: 100%;
-    border-radius: 10px;
-    display: block;
-    transition: transform 0.5s;
+.project-block p {
+    margin-bottom: 10px;
+    color: #ababab;
 }
+
+.project-block a {
+    display: inline-block;
+    padding: 8px 15px;
+    background: #ff004f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background 0.3s;
+}
+
+.project-block a:hover {
+    background: #e60045;
+}
+
+.project-block:hover {
+    background: #333;
+    transform: translateY(-5px);
+}
+
+
 
 .layer {
     width: 100%;
