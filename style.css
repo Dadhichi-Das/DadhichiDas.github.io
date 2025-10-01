@@ -209,7 +209,7 @@ nav ul li a {
 
 .project-block h3 {
     margin-bottom: 10px;
-    color: white;
+    color: #ff004f;
 }
 
 .project-block p {
@@ -456,3 +456,4 @@ nav .fa-solid {
     margin-top: -20px;
     display: block;
 }
+
